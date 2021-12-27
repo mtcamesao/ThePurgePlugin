@@ -1,0 +1,13 @@
+name: ThePurge
+main: com.dotbait.main.Main
+version: 1.0
+api-version: 1.13
+author: dotBAIT
+commands:
+  purge:
+   description: Set purge day, time, duration
+   permission-message: You do not have permission!
+permissions:
+  purge.set:
+   description: Set purge day, time, duration
+   default: op
